@@ -1,6 +1,5 @@
-package com.springboot.blog.entity;
+package com.springboot.blog.payload;
 
-import com.springboot.blog.payload.PostDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,7 +13,7 @@ public class PostResponse {
     private List<PostDto> content;
     private int pageNo;
     private int pageSize;
-    private long totalElements;
+    private Long totalElements;
     private int totalPages;
     private boolean last;
 }
